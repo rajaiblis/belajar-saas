@@ -1,0 +1,25 @@
+// Tes Partial dan Import
+// nama wajib underscore diawal
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+
+$ukuranBesar: 48px;
+$ukuranSedang: 24px;
+$ukuranKecil: 14px;
+
+
+h3 {
+    font: {
+        size: $ukuranSedang;
+        family: 'Montserrat', sans-serif;
+    }
+}
+
+p {
+    font: {
+        size: $ukuranKecil;
+        family: 'Montserrat', sans-serif;
+    }
+}
